@@ -1,0 +1,125 @@
+header{
+    margin-left: 10%;
+	margin-right:10%;
+    margin-top:2%;
+    margin-bottom:30%;
+}
+
+body {
+    color:white;
+    background-color:black;
+    background: url(../images/background.png) no-repeat center top, url(../images/background1.png) repeat;
+    font-family: 'Open Sans', sans-serif;
+}
+
+#menu{
+    display: flex;
+    justify-content: space-around;
+    flex: 1 1 0;
+    margin-bottom: 5%;
+}
+#menu a{
+    text-decoration: none;
+    color: white;
+    font-family: 'Staatliches', cursive;
+	font-size: 150%;
+}
+
+#menu a:hover{
+    color:#151b3a;
+}
+
+#menu-right{
+    display:flex;
+    justify-content: center;
+    flex:1 1 0;
+}
+
+#icon-menu{
+    display: flex;
+    justify-content: center;
+    flex: 1 1 0;
+}
+#icon-menu a{
+    padding-right: 10%;
+    font-size: 150%;
+}
+
+.image_rond{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    width: 400px;
+    height: 400px;
+    margin-bottom: 5%;
+    margin-top: 5%;
+    background-color: #ffd27D;
+    overflow: hidden;
+}
+.img_pres{
+    width: 80%;
+    height: 80%;
+}
+.img_projet{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.img_projet p{
+    color: #ffd27D;
+    font-size: 200%;
+    font-family: 'Staatliches', cursive;
+}
+
+main{
+    margin-left: 10%;
+	margin-right:10%;
+    margin-top:5%;
+}
+
+.description{
+    display: flex;
+    flex-direction: column;
+    font-size: 150%;
+    color: white;
+}
+
+.centre{
+    display: flex;
+    justify-content:center;
+    margin-top: 10%;
+    margin-bottom: 15%;
+}
+
+.centre a{
+    text-decoration: none;
+    color:black
+}
+
+.button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffd27D;
+    height: 50px;
+    width: 300px;
+    font-size: 150%;
+    color: black;
+    font-family: 'Staatliches', cursive;
+    border-radius: 5px;
+}
+
+.button:hover{
+    background-color: #ea4772;
+}
+
+footer{
+    margin-top: 10%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    font-size: 80%;
+}
+
