@@ -1,0 +1,228 @@
+<!doctype html>
+<html lang="fr">
+	<head>
+	  <meta charset="utf-8">
+	  <title>Portfolio Nicolas</title>
+	  <link rel="icon" href="images/logo.ico"/>
+	  <link rel="stylesheet" href="style.css">
+	  <script src="script.js"></script>
+	  <script src="konami.js"></script>
+	  <script src="https://kit.fontawesome.com/d6b99b08bc.js" crossorigin="anonymous"></script>
+	  <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">
+	  <link href="https://fonts.googleapis.com/css?family=Staatliches&display=swap" rel="stylesheet">
+	</head>
+
+	<header>
+		<section id="menu">
+			<div class="menu_left">
+				<a href="#menu_a_propos">A propos</a>
+				<a href="#real">Réalisation</a>
+			</div>
+
+			<div class="menu_logo">
+				<img id="logo" src="images/logo.svg">
+				<p>Étudiant Informatique</p>
+			</div>
+
+			<div class="menu_right">
+				<a href="#contact">Contact</a>
+				<div>
+					<a href="https://www.pinterest.fr/tryptoo/" target="blank">
+						<i class="fab fa-pinterest-p"></i>
+					</a>
+					<a href="https://www.pinterest.fr/tryptoo/" target="blank">
+						<i class="fab fa-facebook-square"></i>
+					</a>
+					<a href="https://www.instagram.com/tryptoo/" target="blank">
+						<i class="fab fa-instagram"></i>
+					</a>
+				</div>
+			</div>
+		</section>
+
+		<!--mettre les images en 1000*430-->
+		<section id="slider"> 
+			<div class="slideshow-container">
+				<div class="mySlides fade">
+					<div class="numbertext">1 / 3</div>
+					  <img src="images/squizz_slide.svg">
+					<div class="text">Squizz</div>
+				</div>
+					  
+				<div class="mySlides fade">
+					<div class="numbertext">2 / 3</div>
+					  <img src="images/overwatch.jpg">
+					<div class="text">Overwatch test</div>
+				</div>
+					  
+				<div class="mySlides fade">
+					<div class="numbertext">3 / 3</div>
+					  <img src="images/squizz_slide.svg">
+					<div class="text">Squizz test</div>
+				</div>
+					  
+					<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+					<a class="next" onclick="plusSlides(1)">&#10095;</a>
+			</div>	
+			<!--affichage des points-->				  
+			<div style="text-align:center">
+				<span class="dot" onclick="currentSlide(1)"></span>
+				<span class="dot" onclick="currentSlide(2)"></span>
+				<span class="dot" onclick="currentSlide(3)"></span>
+
+			</div>
+			<div id="centre">
+				<a href=#real>
+					<div class="button">
+						<p>Mes réalisations</p>
+					</div>
+				</a>
+			</div>
+		</section>
+	</header>
+
+	<body>
+		<script src="script.js"></script>
+		<main>
+			<section id="menu_a_propos">
+				<div id="a_propos">
+					<p class="text_menu">A propos</p>
+				</div>
+				<div id="a_propos">
+					<div class="colonne">
+						<p class="description">Nicolas, étudiant 1ère année en informatique à Le Puy-En-Velay. J'apprends actuellement le C++,l'HTML,le CSS le web design ...</p>
+						<p class="description">Lors de mes études au lycée j'ai réalisé différents projets comme un site en HTML ou un jeu pour le BAC d'ISN.</p>
+						<p class="description">L'ISN (Informatique et Sciences du Numérique)m'a permis de m'initier à l’algorithmie et le langage Python.</p>
+						<p class="description">Me contacter pour plus d'informations.</p>
+					</div>
+					<div id="photo_a_propos">
+						<div class="cercle">
+							<img id="image_a_propos" src="images/Photo de Nicolas.jpg">
+						</div>
+					</div>
+				</div>
+				<div id="centre_cv">
+					<a href="CV PEROT Nicolas.pdf" download="CV-PEROT-Nicolas.pdf" target="blank">
+						<div class="button">
+							<p>Mon CV</p>
+						</div>
+					</a>
+				</div>
+			</section>
+			<section id="real">
+				<div class="text_center">
+					<p class="text_menu_real">Mes réalisations</p>
+				</div>
+				<div class="real_section">
+					<div class="text_real">
+						<div class="cercle">
+							<img class="image_rond" src="images/Squizz.png">
+						</div>
+						<p>Squizz</p>
+					</div>
+					<div class="text_real">
+						<div class="cercle">
+							<img class="image_rond" src="images/pikameme.jpg">
+						</div>
+						<p>Pika</p>
+					</div>
+					<div class="text_real">
+						<div class="cercle">
+							<img class="image_rond" src="images/pikameme.jpg">
+						</div>
+						<p>PikaPika</p>
+					</div>
+				</div>
+
+				<div class="real_section">
+					<div class="text_real">
+						<div class="cercle">
+							<img class="image_rond" src="images/pikameme.jpg">
+						</div>
+						<p>piiiikaaaa</p>
+					</div>
+					<div class="text_real">
+						<div class="cercle">
+							<img class="image_rond" src="images/pikameme.jpg">
+						</div>
+						<p>pika ?</p>
+					</div>
+					<div class="text_real">
+						<div class="cercle">
+							<img class="image_rond" src="images/pikameme.jpg">
+						</div>
+						<p>pikachuuuuuu</p>
+					</div>
+				</div>
+				<div id="centre_real">
+					<a href="projets/index.html">
+						<div id="button_real">
+							<p>Voir plus de projets</p>
+						</div>
+					</a>
+				</div>
+			</section>
+
+			<section id="contact">
+				<div>
+					<p class="text_menu">Contact</p>
+				</div>
+				<div id="menu_contact">
+					<div id="menu_left_contact">
+						<div class="inline">
+							<input type="text" class="input-field_nom_prenom" placeholder="Nom:" required>
+							<input type="text" class="input-field_nom_prenom" placeholder="Prénom:" required>
+						</div>
+						<div>
+							<input type="text" class="input-field_mail" placeholder="E-mail:" required>
+						</div>
+						<div>
+							<textarea class="input-field_message" placeholder="Message: (max:2000 characters)" maxlength="2000"></textarea>
+						</div>
+						<div class="button-send">
+							<p>Envoyer</p>
+						</div>
+					</div>
+					<div class="barre">
+						<hr class="barre_vertical">
+					</div>
+					<div id=menu_right_contact>
+						<div class="contact-text-icon">
+							<i class="fas fa-phone-alt"></i>
+							<p>07 81 41 91 43</p>
+						</div>
+						<div class="contact-text-icon">
+							<i class="fas fa-envelope"></i>
+							<p>Nicolas.PEROT@etu.uca.fr</p>
+						</div>
+						<div class="contact-text-icon2">
+							<a class="contact-text-icon2" href="https://www.google.com/maps/place/UCA+IUT+Le+Puy+en+Velay/@45.0397878,3.8799565,17.53z/data=!4m8!1m2!2m1!1siut+puy+en+velay!3m4!1s0x0:0x9210d60804d0376f!8m2!3d45.039838!4d3.8806455" target="blank">
+								<i class="fas fa-map-marker-alt"></i>
+								<div class="localisation-text">
+									<p>43000 Le Puy-En-Velay</p>
+									<p>IUT Informatique</p>
+								</div>
+							</a>
+						</div>
+						<div class="icon-reseaux">
+							<a href="https://www.pinterest.fr/tryptoo/" target="blank">
+								<i class="fab fa-pinterest-p"></i>
+							</a>
+							<a href="https://www.pinterest.fr/tryptoo/" target="blank">
+								<i class="fab fa-facebook-square"></i>
+							</a>
+							<a href="https://www.instagram.com/tryptoo/" target="blank">
+								<i class="fab fa-instagram"></i>
+							</a>
+						</div>
+					</div>
+				</div>
+			</section>
+		</main>
+	</body>
+
+	<footer>
+		<p>PEROT Nicolas</p>
+		<p>© Copyright 2019-2020</p>
+	</footer>
+</html>
