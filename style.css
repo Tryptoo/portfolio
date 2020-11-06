@@ -258,6 +258,7 @@ main{
 #image_a_propos{
   width: 150%;
   height: auto;
+  padding-top: 100%;
 }
 
 .image_rond{
