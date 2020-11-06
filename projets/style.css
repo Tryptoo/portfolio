@@ -74,6 +74,11 @@ main{
   font-family: 'Staatliches', cursive;
 }
 
+.text_center{
+  display: flex;
+  justify-content: center;
+}
+
 .cercle{
   display: flex;
   justify-content: center;
