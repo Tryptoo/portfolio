@@ -213,7 +213,7 @@ main{
 #centre{
   display: flex;
   justify-content: center;
-  margin-top: 10%;
+  margin-top: 2%;
   margin-bottom: 40%;
 }
 #centre_cv{
@@ -267,6 +267,7 @@ main{
 .colonne{
   display: flex;
   flex-direction: column;
+  width: min-content;
 }
 
 #real{
