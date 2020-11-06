@@ -419,7 +419,7 @@ main{
   display: flex;
   flex-direction: column;
   flex: 1 1 0;
-  padding-top: 5%;
+  padding-top: 10%;
 }
 
 #menu_right_contact i{
@@ -454,6 +454,7 @@ main{
 
 .icon-reseaux i{
   color:white;
+  font-size:20%;
 }
 
 .icon-reseaux i:hover{
