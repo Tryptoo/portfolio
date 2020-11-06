@@ -251,6 +251,7 @@ main{
   align-items: center;
   color: #ffd27D;
   overflow: hidden;
+  flex-basis: 15%;
 }
 
 #image_a_propos{
@@ -267,7 +268,6 @@ main{
 .colonne{
   display: flex;
   flex-direction: column;
-  width: min-content;
 }
 
 #real{
