@@ -82,7 +82,7 @@ main{
 .cercle{
   display: flex;
   justify-content: center;
-  align-items: flex-start;
+  align-items: center;
   border-radius:100%;
   width: 250px;
   height: 250px;
@@ -99,8 +99,8 @@ a{
   text-decoration: none;
 }
 .image_rond{
-  width: inherit;
-  height: inherit;
+  width: 200px;
+  height: 200px;
   background-color: #ffd27D;
 }
   
