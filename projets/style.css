@@ -130,6 +130,12 @@ footer{
   flex-direction: column;
   font-size: 80%;
 }
+#slider{
+  padding-top: 10px;
+}
+#slider img{
+  width:100%;
+}
 
 * {box-sizing:border-box}
 
