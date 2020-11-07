@@ -141,21 +141,21 @@
 					<p class="text_menu">Contact</p>
 				</div>
 				<div id="menu_contact">
-					<div id="menu_left_contact">
+					<form id="menu_left_contact" method="post" action="mail.php">
 						<div class="inline">
-							<input type="text" class="input-field_nom_prenom" placeholder="Nom:" required>
-							<input type="text" class="input-field_nom_prenom" placeholder="Prénom:" required>
+							<input type="text" class="input-field_nom_prenom" placeholder="Nom:"  name="Nom" required>
+							<input type="text" class="input-field_nom_prenom" placeholder="Prénom:" name="prenom" required>
 						</div>
 						<div>
-							<input type="text" class="input-field_mail" placeholder="E-mail:" required>
+							<input type="text" class="input-field_mail" placeholder="E-mail:" name="email" required>
 						</div>
 						<div>
-							<textarea class="input-field_message" placeholder="Message: (max:2000 characters)" maxlength="2000"></textarea>
+							<textarea class="input-field_message" placeholder="Message: (max:2000 characters)" maxlength="2000" name="message" required></textarea>
 						</div>
 						<div class="button-send">
 							<p>Envoyer</p>
 						</div>
-					</div>
+					</form>
 					<div class="barre">
 						<hr class="barre_vertical">
 					</div>
