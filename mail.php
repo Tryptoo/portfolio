@@ -16,10 +16,10 @@ if(isset($_POST['message'])){
             <p><b>Nom : </b>' . $_POST['nom'] . ' ' . $_POST['prenom'] . ' <br>
             <b>Email : </b>' . $_POST['email'] . '<br>
             <b>Message : </b>' . $_POST['message'] . '</p>';
-    $retour = mail('nico.perot@hotmail.fr', 'Envoi depuis la page Contact', $message, $entete );
-    if ($retour) {
+    //$retour = mail('nico.perot@hotmail.fr', 'Envoi depuis la page Contact', $message, $entete );
+    /*if ($retour) {
         echo '<p>Merci ! Votre message a bien été envoyé.</p>';
-    }
+    }*/
 }
 ?>
 </body>
