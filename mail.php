@@ -5,7 +5,7 @@
     <title>Envoi d'un message par formulaire</title>
 </head>
 
-<body>
+<body style="background: #151b3a; color: #ffd27D;font-family: 'Open Sans', sans-serif;display: flex;justify-content: center;align-items: center">
 <?php
 if(isset($_POST['message'])){
     $entete  = 'MIME-Version: 1.0' . "\r\n";
