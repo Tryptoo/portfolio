@@ -63,6 +63,7 @@ main{
   display: flex;
   justify-content: space-around;
   align-items: center;
+  flex-wrap: wrap;
 }
 
 .text_real{
@@ -72,6 +73,7 @@ main{
   color: #ffd27D;
   font-size: 150%;
   font-family: 'Staatliches', cursive;
+  margin-top: 5%;
 }
 
 .text_center{
